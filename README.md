@@ -1,0 +1,2 @@
+# fungsiJS
+function javascript example
