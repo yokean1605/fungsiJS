@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <title>JS Function</title>
+    <style>
+        legend.scheduler-border {
+            width:inherit; /* Or auto */
+            padding:0 10px; /* To give a bit of padding on the left and right */
+            border-bottom:none;
+        }    
+    </style>
+</head>
+<body>
+    <div class="app-web mt-5">
+        <div class="container">
+            <div class="col-6 mx-auto">
+                <form>
+                    <fieldset class="form-group border p-4">
+                        <legend class="scheduler-border">Input Form</legend>
+                        <div class="d-flex no-gutters">
+                            <div class="col-7 mr-3">
+                                <input type="text" name="barang" placeholder="input nama barang..." class="form-control">
+                            </div>
+                            <div class="col-1">
+                                <input type="button" name="" onclick="addBarang();" value="Tambah" class="btn btn-danger">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div>
+                <ul id="list-barang">
+    
+                </ul>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="js-fungsi.js"></script>
+</body>
+</html>
